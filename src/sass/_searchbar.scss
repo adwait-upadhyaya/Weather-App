@@ -1,0 +1,15 @@
+.searchbar__suggestions {
+  position: absolute;
+
+  margin-top: 42px;
+  background-color: white;
+  li {
+    padding: 15px;
+    color: black;
+  }
+
+  li:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+  }
+}

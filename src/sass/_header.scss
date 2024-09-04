@@ -1,0 +1,31 @@
+.navbar {
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  margin-top: 40px;
+  width: 87%;
+  justify-content: space-between;
+  align-items: center;
+
+  &__right {
+    &--searchbar {
+      padding: 14px 15px 13px 2px;
+      display: flex;
+      border-bottom: 1px solid white;
+      input {
+        display: flex;
+        justify-content: space-between;
+        width: 371px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        font-size: 20px;
+      }
+      ::placeholder {
+        color: #ffffff70;
+        font-size: 20px;
+      }
+    }
+  }
+}

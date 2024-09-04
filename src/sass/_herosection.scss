@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 85px;
+
+  &__main {
+    font-size: 143px;
+    line-height: 167.58px;
+    letter-spacing: -0.08em;
+    text-align: left;
+  }
+
+  &__secondary {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    &--big {
+      font-size: 60px;
+      line-height: 70.31px;
+      text-align: left;
+    }
+
+    &--small {
+      font-size: 18px;
+      line-height: 21.09px;
+      text-align: left;
+    }
+  }
+}
